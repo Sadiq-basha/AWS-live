@@ -2,6 +2,14 @@ sudo apt-get update
 # For Sql-client
 sudo apt-get install mysql-client
 
+create table employee(
+    -> empid varchar(20),
+    -> fname varchar(20),
+    -> lname varchar(20),
+    -> pri_skill varchar(20),
+    -> location varchar(20));
+
+
 # For python and related frameworks
 
 sudo apt-get install python3
@@ -11,3 +19,4 @@ sudo apt-get install python3-boto3
 
 # for running application
 sudo python3 Empapp.py
+
